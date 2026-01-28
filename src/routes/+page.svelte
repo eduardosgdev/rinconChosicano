@@ -11,7 +11,7 @@
   <div class="absolute inset-1 bg-black/50"></div>
 
   <!-- contenido encima -->
-  <div class="relative z-10 h-[90vh] flex flex-col justify-center mt-12">
+  <div class="relative z-10 h-[70vh] flex flex-col justify-center mt-12">
     <div class="mb-4">
       <h1 class="p-2 font-bold text-[45px] text-white">
         EL MEJOR RINCÓN PARA CONSENTIR EL PALADAR
