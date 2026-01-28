@@ -11,7 +11,7 @@
   <main class=" text-white px-2 py-2 bg-red-600 ">
     <!-- Contenedor principal de la navbar -->
     <nav class="flex items-center justify-between">
-        <img src={logo} alt="logo" class="w-36 h-24 object-scale-cover">
+        <img src={logo} alt="logo" class="w-42 mt-2 h-26 object-cover">
       <!-- Menú hamburguesa -->
         <button class="p-1 text-white hover:bg-gray-800 rounded" on:click={toggleMenu}>
           <!-- Ícono de menú (hamburguesa) -->

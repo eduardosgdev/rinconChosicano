@@ -35,16 +35,16 @@
 </script>
 <main>
     <NavBar />
-    <section>
+    <section class="mt-4">
         <div class="space-y-6">
             {#each menu as categoria, i}
-              <div class="rounded-2xl border border-gray-200 bg-white shadow-sm">
+              <div class="rounded-2xl border text-red-600 border-gray-400 bg-white shadow-sm">
                 <!-- Header -->
                 <button
                   on:click={() => toggle(i)}
                   class="flex w-full items-center justify-between rounded-2xl px-6 py-4 text-left transition hover:bg-gray-50"
                 >
-                  <h2 class="text-xl font-bold text-gray-900">{categoria.categoria}</h2>
+                  <h2 class="text-xl font-bold text-red-700">{categoria.categoria}</h2>
                   <svg
                     class="h-5 w-5 transform transition-transform duration-300"
                     class:rotate-180={abiertos[i]}
