@@ -1,6 +1,7 @@
 <script>
     import NavBar from "../components/navBar/navBar.svelte";
     import { goto } from "$app/navigation";
+    const ceviche = '/img/ceviche.png'
 </script>
 <main>
     <NavBar />
@@ -18,7 +19,7 @@
           EL MEJOR RINCÓN PARA CONSENTIR EL PALADAR
         </h1>
 
-        <p class="p-2 font-bold text-gray-200 text-[12px] max-w-xl">
+        <p class="p-2 font-bold text-gray-200 text-[14px] max-w-xl">
           En el rincón chosicano trabajamos cada día para brindarte una experiencia
           llena de sabor y tradición, combinando años de experiencia de nuestros chefs
           con el exquisito toque norteño que potencia los sabores
@@ -53,7 +54,7 @@
         </p>
     
         <a
-          href="https://www.google.com/maps?q=40.3959959,-3.7378373"
+          href="https://www.google.com/maps?q=40.3959955,-3.737814"
           target="_blank"
           rel="noopener noreferrer"
           class="mt-2 flex items-center justify-center gap-2 rounded-xl bg-red-600 px-4 py-3 font-bold text-white hover:bg-red-700 transition"
@@ -84,6 +85,37 @@
     
       </div>
     </section>
+    <section class="mt-12 px-4">
+      <div class="max-w-5xl mx-auto bg-white rounded-2xl shadow-lg p-8 flex flex-col gap-6">
+        
+        <h2 class="text-center text-3xl font-extrabold text-gray-800">
+          👨‍👩‍👧‍👦 Quiénes somos
+        </h2>
+    
+        <p class="text-center text-gray-600 text-lg leading-relaxed">
+          Somos un <span class="font-semibold text-gray-800">restaurante familiar</span> que nace del amor por la cocina y el deseo de compartir sabores de toda la vida.
+          Cada plato que servimos está preparado con recetas tradicionales, ingredientes de calidad y el cariño
+          que solo se encuentra en casa.
+        </p>
+    
+        <p class="text-center text-gray-600 text-lg leading-relaxed">
+          Creemos en la cercanía, en el trato amable y en hacer que cada persona se sienta como en familia.
+          Para nosotros no sois clientes, sois invitados a nuestra mesa.
+        </p>
+    
+        <div class="flex justify-center text-center">
+          <span class=" bg-red-700 text-white px-8 py-2 rounded-full font-bold">
+            Gastronomia peruana  Ambiente familiar  
+            Altamente recomendado
+          </span>
+        </div>
+    
+      </div>
+    </section >
+    <section >
+      <img src={ceviche} alt="ceviche" class="rounded-3xl p-3 shadow-lg">
+    </section>
+    
     
 
 </main>

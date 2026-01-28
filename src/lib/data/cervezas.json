@@ -1,5 +1,5 @@
 {
-    "categoria": "cervezas",
+    "categoria": "Cervezas",
     "items": [
       { "nombre": "Tercio de Mahou", "precio": 3.00 },
       { "nombre": "Tercio Estrella Galicia", "precio": 3.00 },

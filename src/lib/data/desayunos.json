@@ -1,5 +1,5 @@
 {
-    "categoria": "desayunos",
+    "categoria": "Desayunos",
     "items": [
       { "nombre": "Croissant", "precio": 3.30 },
       { "nombre": "Tostada", "precio": 3.00 },
@@ -7,7 +7,7 @@
       { "nombre": "Café", "precio": 1.80 },
       { "nombre": "Infusiones", "precio": 1.80 },
       { "nombre": "Zumos", "precio": 2.50 },
-      { "nombre": "Cola Cao", "precio": 2.50 }
+      { "nombre": "ColaCao", "precio": 2.50 }
     ]
   }
   

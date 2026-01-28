@@ -1,5 +1,5 @@
 {
-    "categoria": "refrescos",
+    "categoria": "Refrescos",
     "items": [
       { "nombre": "Coca Cola", "precio": 2.50 },
       { "nombre": "Fanta", "precio": 2.50 },

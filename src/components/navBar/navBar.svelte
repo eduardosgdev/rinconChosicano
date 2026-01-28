@@ -25,6 +25,7 @@
     <div class={`lg:hidden ${isOpen ? 'block' : 'hidden'}  text-white  ml-2 text-[16px] font-semibold`}>
       <a href="/" class="block py-2 hover:bg-gray-800">Inicio</a>
       <a href="/carta" class="block py-2 hover:bg-gray-800">Carta</a>  
+      <a href="/redes" class="block py-2 hover:bg-gray-800">Nuestras redes</a> 
     </div>
     
   </main>

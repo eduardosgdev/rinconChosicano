@@ -35,10 +35,10 @@
 </script>
 <main>
     <NavBar />
-    <section class="mt-4">
+    <section class="mt-4 p-2 ">
         <div class="space-y-6">
             {#each menu as categoria, i}
-              <div class="rounded-2xl border text-red-600 border-gray-400 bg-white shadow-sm">
+              <div class="rounded-2xl border  border-gray-400 bg-white shadow-sm">
                 <!-- Header -->
                 <button
                   on:click={() => toggle(i)}
@@ -64,7 +64,7 @@
                     <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                       {#each categoria.items as item (item.nombre)}
                         <li
-                          class={`rounded-2xl bg-gradient-to-br ${colores[categoria.categoria] ?? 'from-gray-50 to-white ring-gray-100'} p-5 text-center ring-1 transition hover:ring-300`}
+                          class={`rounded-2xl bg-linear-to-br ${colores[categoria.categoria] ?? 'from-gray-50 to-white ring-gray-100'} p-5 text-center ring-1 transition hover:ring-300`}
                         >
                           <p class="text-lg font-bold text-gray-900">{item.nombre}</p>
                           {#if item.descripcion}
