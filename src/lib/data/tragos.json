@@ -1,0 +1,14 @@
+{
+    "categoria": "tragos",
+    "items": [
+      { "nombre": "Pisco Sour", "precio": 7.50 },
+      { "nombre": "Gin Tonic", "precio": 7.00 },
+      { "nombre": "Cuba Libre", "precio": 8.00 },
+      { "nombre": "Whisky con refresco", "precio": 8.00 },
+      { "nombre": "Baileys", "precio": 4.00 },
+      { "nombre": "Balón de Baileys", "precio": 8.00 },
+      { "nombre": "Cubatas", "precio": 8.00 },
+      { "nombre": "Copa de vino blanco o negro", "precio": 3.50 }
+    ]
+  }
+  

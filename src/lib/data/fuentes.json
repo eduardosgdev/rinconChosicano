@@ -1,0 +1,16 @@
+{
+    "categoria": "bandejas",
+    "items": [
+      {
+        "nombre": "Bandeja Criolla",
+        "descripcion": "Pollo parrillero, anticucho, rachi",
+        "precio": 18.00
+      },
+      {
+        "nombre": "Bandeja Mixta",
+        "descripcion": "Pollo, chorizo, morcilla, butifarra, chicharrón de cerdo",
+        "precio": 20.00
+      }
+    ]
+  }
+  

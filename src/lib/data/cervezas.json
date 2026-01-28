@@ -1,0 +1,13 @@
+{
+    "categoria": "cervezas",
+    "items": [
+      { "nombre": "Tercio de Mahou", "precio": 3.00 },
+      { "nombre": "Tercio Estrella Galicia", "precio": 3.00 },
+      { "nombre": "Tercio Corona", "precio": 3.00 },
+      { "nombre": "Pilsen", "precio": 3.80 },
+      { "nombre": "Cerveza Cusqueña Negra", "precio": 4.00 },
+      { "nombre": "Doble", "precio": 3.50 },
+      { "nombre": "Jarra", "precio": 4.00 }
+    ]
+  }
+  

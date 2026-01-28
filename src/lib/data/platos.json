@@ -1,0 +1,23 @@
+{
+    "categoria": "platos adicionales",
+    "items": [
+      { "nombre": "Ceviche de pescado", "precio": 12.00 },
+      { "nombre": "Ceviche con chicharrón", "precio": 14.00 },
+      { "nombre": "Parihuela", "precio": 18.00 },
+      { "nombre": "Anticucho con rachi", "precio": 14.00 },
+      { "nombre": "Chaufa de pollo y/o cerdo", "precio": 12.00 },
+      { "nombre": "Salchipollo", "precio": 10.00 },
+      { "nombre": "Chaufa de mariscos", "precio": 16.00 },
+      { "nombre": "Aeropuerto", "precio": 16.00 },
+      { "nombre": "Papa rellena", "precio": 5.00 },
+      { "nombre": "Mostrito broaster", "precio": 13.00 },
+      { "nombre": "Chicharrón", "precio": 10.00 },
+      { "nombre": "Chicharrón con tamal", "precio": 13.00 },
+      { "nombre": "Caldo de gallina", "precio": 9.00 },
+      { "nombre": "Caldo de mote", "precio": 10.00 },
+      { "nombre": "Dorada frita con yuca y ensalada", "precio": 15.00 },
+      { "nombre": "Tamal", "precio": 6.00 },
+      { "nombre": "Pan con chicharrón", "precio": 8.00 }
+    ]
+  }
+  

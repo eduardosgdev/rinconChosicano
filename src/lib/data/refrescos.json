@@ -1,0 +1,18 @@
+{
+    "categoria": "refrescos",
+    "items": [
+      { "nombre": "Coca Cola", "precio": 2.50 },
+      { "nombre": "Fanta", "precio": 2.50 },
+      { "nombre": "Sprite", "precio": 2.50 },
+      { "nombre": "Inca Kola pequeña", "precio": 3.80 },
+      { "nombre": "Inca Kola grande", "precio": 11.50 },
+      { "nombre": "Nestea", "precio": 3.00 },
+      { "nombre": "Zumo de piña", "precio": 2.50 },
+      { "nombre": "Zumo de melocotón", "precio": 2.50 },
+      { "nombre": "Acuario", "precio": 3.00 },
+      { "nombre": "Inca Girdta", "precio": 7.00 },
+      { "nombre": "Agua", "precio": 2.00 },
+      { "nombre": "Agua con gas", "precio": 2.50 }
+    ]
+  }
+  

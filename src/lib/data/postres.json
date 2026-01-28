@@ -1,0 +1,18 @@
+{
+    "categoria": "postres",
+    "items": [
+      { "nombre": "Empanadas peruanas", "precio": 4.00 },
+      { "nombre": "Empanadas venezolanas", "precio": 4.00 },
+      { "nombre": "Empanadas colombianas", "precio": 2.50 },
+      { "nombre": "Tarta de tres leches", "precio": 6.00 },
+      { "nombre": "Alfajores", "precio": 2.50 },
+      { "nombre": "Gelatina con flan", "precio": 3.00 },
+      { "nombre": "Mazamorra", "precio": 4.00 },
+      {
+        "nombre": "Picarones",
+        "precio": 5.00,
+        "nota": "Solo fines de semana"
+      }
+    ]
+  }
+  

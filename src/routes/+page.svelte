@@ -28,7 +28,7 @@
       <button class="bg-white px-6 py-2 text-red-600 rounded-xl font-bold">
         Ver carta
       </button>
-      <button class="bg-white px-6 py-2 text-red-600 rounded-xl font-bold">
+      <button class="bg-red-600 px-6 py-2 text-white rounded-xl font-bold">
         Contactar
       </button>
     </div>
