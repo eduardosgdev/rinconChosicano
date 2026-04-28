@@ -49,12 +49,12 @@
         </h1>
     
         <p class="text-center text-gray-600 font-semibold">
-          C. Vía Carpetana, 83<br />
+          C. del Dr. Espina, 1, Carabanchel, <br />
           Madrid
         </p>
     
         <a
-          href="https://www.google.com/maps?q=40.3959955,-3.737814"
+          href="https://www.google.com/maps?q=40.391026,-3.727094"
           target="_blank"
           rel="noopener noreferrer"
           class="mt-2 flex items-center justify-center gap-2 rounded-xl bg-red-600 px-4 py-3 font-bold text-white hover:bg-red-700 transition"
@@ -88,8 +88,8 @@
     <section class="mt-12 px-4">
       <div class="max-w-5xl mx-auto bg-white rounded-2xl shadow-lg p-8 flex flex-col gap-6">
         
-        <h2 class="text-center text-3xl font-extrabold text-gray-800">
-          👨‍👩‍👧‍👦 Quiénes somos
+        <h2 class="text-center text-3xl font-extrabold text-gray-800 flex flex-col gap-3">
+          👨‍👩‍👧‍👦<span>Quiénes somos</span> 
         </h2>
     
         <p class="text-center text-gray-600 text-lg leading-relaxed">
@@ -103,17 +103,28 @@
           Para nosotros no sois clientes, sois invitados a nuestra mesa.
         </p>
     
-        <div class="flex justify-center text-center">
-          <span class=" bg-red-700 text-white px-8 py-2 rounded-full font-bold">
-            Gastronomia peruana  Ambiente familiar  
-            Altamente recomendado
-          </span>
-        </div>
+        
     
       </div>
     </section >
     <section >
       <img src={ceviche} alt="ceviche" class="rounded-3xl p-3 shadow-lg">
+      <div class="flex justify-center text-center p-3">
+          <ul class="bg-red-700 text-white px-8 py-4 rounded-2xl font-bold space-y-2 list-disc list-inside">
+            <li>Auténtica gastronomía peruana</li>
+            <li>🐟 Ceviche fresco todos los días</li>
+            <li>👨‍🍳 Recetas tradicionales caseras</li>
+            <li>⭐ 5 estrellas por nuestros clientes</li>
+            <li>🏆 Restaurante peruano mejor valorado</li>
+            <li>👨‍👩‍👧 Ambiente familiar</li>
+            <li>🎉 Ideal para grupos y celebraciones</li>
+            <li>📍 Restaurante peruano en Madrid</li>
+            <li>🚇 Fácil acceso en metro</li>
+            <li>💰 Excelente relación calidad-precio</li>
+            <li>⚡ Servicio rápido y atención cercana</li>
+            <li>❤️ Experiencia auténtica y acogedora</li>
+          </ul>
+        </div>
     </section>
     
     

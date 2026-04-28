@@ -1,23 +1,25 @@
 {
-    "categoria": "Platos adicionales",
+    "categoria": "Principales",
     "items": [
-      { "nombre": "Ceviche de pescado", "precio": 12.00 },
-      { "nombre": "Ceviche con chicharrón", "precio": 14.00 },
-      { "nombre": "Parihuela", "precio": 18.00 },
-      { "nombre": "Anticucho con rachi", "precio": 14.00 },
-      { "nombre": "Chaufa de pollo y/o cerdo", "precio": 12.00 },
-      { "nombre": "Salchipollo", "precio": 10.00 },
-      { "nombre": "Chaufa de mariscos", "precio": 16.00 },
-      { "nombre": "Aeropuerto", "precio": 16.00 },
-      { "nombre": "Papa rellena", "precio": 5.00 },
-      { "nombre": "Mostrito broaster", "precio": 13.00 },
-      { "nombre": "Chicharrón", "precio": 10.00 },
-      { "nombre": "Chicharrón con tamal", "precio": 13.00 },
-      { "nombre": "Caldo de gallina", "precio": 9.00 },
-      { "nombre": "Caldo de mote", "precio": 10.00 },
+      { "nombre": "Ceviche de pescado", "precio": 15.00 },
+      { "nombre": "Ceviche Carretillero", "precio": 17.00 },
+      { "nombre": "Ceviche Mixto", "precio": 17.00 },
+      { "nombre": "Jalea mixta", "precio": 18.00 },
+      { "nombre": "Jalea de Pescado", "precio": 16.00 },
+      { "nombre": "Arroz con Marisco", "precio": 18.00 },
+      { "nombre": "Parihuela", "precio": 20.00 },
       { "nombre": "Dorada frita con yuca y ensalada", "precio": 15.00 },
-      { "nombre": "Tamal", "precio": 6.00 },
-      { "nombre": "Pan con chicharrón", "precio": 8.00 }
+      { "nombre": "Lomo saltado", "precio": 16.00 },
+      { "nombre": "Ají de gallina", "precio": 15.00 },
+      { "nombre": "Cabrito a la Norteña", "precio": 20.00 },
+      { "nombre": "Chaufa de pollo ", "precio": 15.00 },
+      { "nombre": "Salchipollo ", "precio": 12.00 },
+      { "nombre": "Aeropuerto", "precio": 17.00 },
+      { "nombre": "Chaufa de mariscos", "precio": 18.00 },
+      { "nombre": "Anticucho chosicano", "precio": 15.00 },
+      { "nombre": "Anticucho de Corazón", "precio": 13.00 },
+      { "nombre": "Bandeja Criolla ", "precio": 15.00 }     
+      
     ]
   }
   

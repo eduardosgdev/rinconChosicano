@@ -1,7 +1,8 @@
 {
     "categoria": "Tragos",
     "items": [
-      { "nombre": "Pisco Sour", "precio": 7.50 },
+      { "nombre": "Pisco Sour", "precio": 8.00 },
+      { "nombre": "Chilcano de maracuyá", "precio": 9.00 },
       { "nombre": "Gin Tonic", "precio": 7.00 },
       { "nombre": "Cuba Libre", "precio": 8.00 },
       { "nombre": "Whisky con refresco", "precio": 8.00 },

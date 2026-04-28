@@ -1,15 +1,26 @@
 {
-    "categoria": "Bandejas",
+    "categoria": "Entrantes",
     "items": [
       {
-        "nombre": "Bandeja Criolla",
-        "descripcion": "Pollo parrillero, anticucho, rachi",
-        "precio": 18.00
+        "nombre": "Papa rellena",
+        "precio": 6.00
+      },
+
+      {
+        "nombre": "Causa limeña",
+        "precio": 9.00
       },
       {
-        "nombre": "Bandeja Mixta",
-        "descripcion": "Pollo, chorizo, morcilla, butifarra, chicharrón de cerdo",
-        "precio": 20.00
+        "nombre": "Torrejitas de choclo con chalaquita",
+        "precio": 8.00
+      },
+      {
+        "nombre": "Alitas acevichadas",
+        "precio": 10.00
+      },
+      {
+        "nombre": "Leche de tigre",
+        "precio": 10.00
       }
     ]
   }

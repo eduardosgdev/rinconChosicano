@@ -2,13 +2,15 @@
     import NavBar from "../../components/navBar/navBar.svelte";
 </script>
 <NavBar />
-<section class="mt-8 px-4">
+<section class="mt-8 px-4 flex flex-col gap-12">
+
+    <h1 class="text-center text-3xl font-extrabold text-gray-800">
+          📲 Redes sociales
+        </h1>
     
-    <div class="w-full max-w-md mx-auto flex flex-col gap-10">
+    <div class="w-full max-w-md mx-auto grid grid-cols-2 gap-6">
       
-      <h2 class="text-center text-3xl font-extrabold text-gray-800">
-        📲 Síguenos en redes
-      </h2>
+      
   
       <!-- Instagram -->
       <a

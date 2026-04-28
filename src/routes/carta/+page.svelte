@@ -3,16 +3,16 @@
     import { slide } from 'svelte/transition';
     import NavBar from "../../components/navBar/navBar.svelte";
     // Importar todos los JSON
-  import desayunos from '$lib/data/desayunos.json';
-  import bandejas from '$lib/data/fuentes.json';
-  import platos from '$lib/data/platos.json';
-  import cervezas from '$lib/data/cervezas.json';
-  import tragos from '$lib/data/tragos.json';
-  import refrescos from '$lib/data/refrescos.json';
-  import postres from '$lib/data/postres.json';
+  import Desayunos from '$lib/data/desayunos.json';
+  import Entrantes from '$lib/data/fuentes.json';
+  import Platos from '$lib/data/platos.json';
+  import Cervezas from '$lib/data/cervezas.json';
+  import Tragos from '$lib/data/tragos.json';
+  import Refrescos from '$lib/data/refrescos.json';
+  import Postres from '$lib/data/postres.json';
 
   // Arreglo con todas las categorías
-  const menu = [desayunos, bandejas, platos, cervezas, tragos, refrescos, postres];
+  const menu = [Desayunos, Entrantes, Platos , Cervezas, Tragos, Refrescos, Postres];
 
   // Estado abierto/cerrado por categoría
   let abiertos = menu.map(() => false);
@@ -24,13 +24,13 @@
 
   // Colores por categoría (para diferenciar)
   const colores = {
-    desayunos: 'from-orange-50 to-white ring-orange-100 text-orange-600',
-    bandejas: 'from-yellow-50 to-white ring-yellow-100 text-yellow-600',
-    platos_adicionales: 'from-green-50 to-white ring-green-100 text-green-600',
-    cervezas: 'from-blue-50 to-white ring-blue-100 text-blue-600',
-    tragos: 'from-purple-50 to-white ring-purple-100 text-purple-600',
-    refrescos: 'from-pink-50 to-white ring-pink-100 text-pink-600',
-    postres: 'from-red-50 to-white ring-red-100 text-red-600'
+    Desayunos: 'from-orange-100 to-white ring-orange-100 text-orange-600',
+    Entrantes: 'from-yellow-100 to-white ring-yellow-100 text-yellow-600',
+    Principales: 'from-green-100 to-white ring-green-100 text-green-600',
+    Cervezas: 'from-blue-100 to-white ring-blue-100 text-blue-600',
+    Tragos: 'from-purple-100 to-white ring-purple-100 text-purple-600',
+    Refrescos: 'from-pink-100 to-white ring-pink-100 text-pink-600',
+    Postres: 'from-red-100 to-white ring-red-100 text-red-600'
   };
 </script>
 <main>
@@ -67,9 +67,6 @@
                           class={`rounded-2xl bg-linear-to-br ${colores[categoria.categoria] ?? 'from-gray-50 to-white ring-gray-100'} p-5 text-center ring-1 transition hover:ring-300`}
                         >
                           <p class="text-lg font-bold text-gray-900">{item.nombre}</p>
-                          {#if item.descripcion}
-                            <p class="mt-1 text-sm text-gray-600">{item.descripcion}</p>
-                          {/if}
                           <p class={`mt-3 text-xl font-semibold ${colores[categoria.categoria]?.split(' ').pop() ?? 'text-gray-600'}`}>
                             €{item.precio.toFixed(2)}
                           </p>
