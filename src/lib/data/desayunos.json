@@ -1,8 +1,15 @@
 {
     "categoria": "Desayunos",
     "items": [
-      { "nombre": " Tamal criollo + café ", "precio": 7.00 },
-      { "nombre": "Pan con chicharron + café ", "precio": 8.00 },
+      { "nombre": " Tamal criollo + café ", "precio": 7.00,"imagen": "/img/desayunos/tamales.jpg" },
+      { "nombre": "Pan con chicharron + café ", "precio": 8.00 ,"imagen": "/img/desayunos/chicharron.jpg"},
+      { "nombre": "Pan con lomo (sólo) ", "precio": 8.00 ,"imagen": "/img/desayunos/lomo.jpg"},
+      { "nombre": "Chicharron + tamal + café ", "precio": 14.00 ,"imagen": "/img/desayunos/chichatamal.jpg"},
+      { "nombre": "Pan con chorizo + café ", "precio": 7.00 ,"imagen": "/img/desayunos/choripan.jpg"},
+      { "nombre": "Pan con pollo + café ", "precio": 7.00 ,"imagen": "/img/desayunos/pollo.jpg"},
+      { "nombre": "Caldo de gallina ", "precio": 10.00 ,"imagen": "/img/desayunos/gallina.jpg"},
+      { "nombre": "Sopa de mote ", "precio": 12.00 ,"imagen": "/img/desayunos/mote.jpg"},
+      { "nombre": "Shambar (sólo lunes ) ", "precio": 14.00 ,"imagen": "/img/desayunos/shambar.jpg"},
       { "nombre": "Croissant + café", "precio": 3.30 },
       { "nombre": "Tostada + café", "precio": 3.00 },
       { "nombre": "Tostada con tomate + café", "precio": 3.30 },

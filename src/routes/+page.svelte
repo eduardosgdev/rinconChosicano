@@ -1,6 +1,7 @@
 <script>
     import NavBar from "../components/navBar/navBar.svelte";
     import { goto } from "$app/navigation";
+    import Footer from "../components/footer/footer.svelte";
     const ceviche = '/img/ceviche.png'
 </script>
 <main>
@@ -126,7 +127,7 @@
           </ul>
         </div>
     </section>
-    
+    <Footer />
     
 
 </main>

@@ -2,6 +2,7 @@
 <script>
     import { slide } from 'svelte/transition';
     import NavBar from "../../components/navBar/navBar.svelte";
+    import Footer from '../../components/footer/footer.svelte';
     // Importar todos los JSON
   import Desayunos from '$lib/data/desayunos.json';
   import Entrantes from '$lib/data/fuentes.json';
@@ -66,6 +67,11 @@
                         <li
                           class={`rounded-2xl bg-linear-to-br ${colores[categoria.categoria] ?? 'from-gray-50 to-white ring-gray-100'} p-5 text-center ring-1 transition hover:ring-300`}
                         >
+                          <img
+                          src={item.imagen}
+                          alt={item.nombre}
+                          class="mx-auto mb-4  w-full rounded-xl object-cover"
+                        />
                           <p class="text-lg font-bold text-gray-900">{item.nombre}</p>
                           <p class={`mt-3 text-xl font-semibold ${colores[categoria.categoria]?.split(' ').pop() ?? 'text-gray-600'}`}>
                             €{item.precio.toFixed(2)}
@@ -79,4 +85,5 @@
             {/each}
           </div>
     </section>
+    <Footer />
 </main>
